@@ -1,0 +1,54 @@
+.justify-center {
+    width: 100%;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.symbol-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.container-person {
+    min-width: 20px;
+}
+
+.container-card {
+    max-width: 50px;
+    max-height: 66px;
+    margin: 2px 2px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.icon-club {
+    background-color: black; /* defines the background color of the image */
+    mask: url(../img/club.svg) no-repeat center / contain;
+    -webkit-mask: url(../img/club.svg) no-repeat center / contain;
+}
+
+.icon-diamond {
+    background-color: red; /* defines the background color of the image */
+    mask: url(../img/diamond.svg) no-repeat center / contain;
+    -webkit-mask: url(../img/diamond.svg) no-repeat center / contain;
+}
+
+.icon-heart {
+    background-color: red; /* defines the background color of the image */
+    mask: url(../img/heart.svg) no-repeat center / contain;
+    -webkit-mask: url(../img/heart.svg) no-repeat center / contain;
+}
+
+.icon-spade {
+    background-color: black; /* defines the background color of the image */
+    mask: url(../img/spade.svg) no-repeat center / contain;
+    -webkit-mask: url(../img/spade.svg) no-repeat center / contain;
+}
+
+.seperated {
+    background-color: bisque !important;
+}
