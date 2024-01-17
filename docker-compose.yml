@@ -1,0 +1,10 @@
+version: "1.0"
+
+services:
+  app:
+    container_name: "card-distributor-container"
+    image: "card-distributor"
+    build:
+      context: .
+    ports:
+      - 8080:80
